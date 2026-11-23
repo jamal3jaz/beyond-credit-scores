@@ -1,0 +1,4 @@
+,silhouette,ARI vs K-Means,risk spread (x),Cramer's V,fit time (s)
+K-Means (Part 2),0.092,1.0,1.839,0.09,2.325
+Gaussian Mixture,0.034,0.188,1.592,0.065,4.547
+K-Prototypes,0.091,0.841,1.823,0.088,35.455

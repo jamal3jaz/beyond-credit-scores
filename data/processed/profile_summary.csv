@@ -1,0 +1,7 @@
+profile,name,loans,default_rate,share_%,margin,lift
+1,Established homeowners,131185,0.1005,19.4835,0.0016,0.6783
+2,Thin-file starters,161731,0.124,24.0201,0.0016,0.8368
+3,Recent delinquents,37292,0.1585,5.5386,0.0037,1.0696
+4,Public-record borrowers,89571,0.1631,13.303,0.0024,1.101
+5,Heavy credit users,102310,0.1712,15.195,0.0023,1.156
+6,Stretched borrowers,151225,0.1883,22.4598,0.002,1.2711

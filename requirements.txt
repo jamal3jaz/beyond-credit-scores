@@ -1,0 +1,10 @@
+pandas
+numpy
+scipy
+scikit-learn
+matplotlib
+pyarrow
+mlxtend
+kmodes
+statsmodels
+jupyter

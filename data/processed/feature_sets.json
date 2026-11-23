@@ -1,0 +1,42 @@
+{
+  "data_file": "loans_clean.parquet",
+  "target": "default",
+  "id": "id",
+  "base_default_rate": 0.1481,
+  "random_state": 42,
+  "cluster_numeric": [
+    "log_annual_inc",
+    "emp_length",
+    "dti",
+    "loan_to_income",
+    "revol_util",
+    "inq_last_6mths",
+    "acc_open_past_24mths",
+    "open_acc",
+    "total_acc",
+    "mort_acc",
+    "credit_history_years",
+    "delinq_2yrs",
+    "has_delinq_history",
+    "has_public_record"
+  ],
+  "cluster_categorical": [
+    "home_ownership",
+    "purpose",
+    "verification_status",
+    "term_months"
+  ],
+  "credit_score_cols": [
+    "grade",
+    "sub_grade",
+    "int_rate",
+    "fico_mean"
+  ],
+  "describe_only": [
+    "loan_amnt",
+    "annual_inc",
+    "installment",
+    "payment_to_income",
+    "revol_bal"
+  ]
+}

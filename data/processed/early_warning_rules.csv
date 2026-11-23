@@ -1,0 +1,81 @@
+rule,traits,% of loans (test),default rate (test),lift (found),lift (tested),lift beyond grade
+2plus_recent_inquiries + high_loan_to_income + renter,3,1.0,29.5,1.87,2.04,1.4
+2plus_recent_inquiries + high_dti + high_loan_to_income,3,1.1,29.4,1.9,2.03,1.41
+high_loan_to_income + many_new_accounts + renter,3,2.2,29.3,2.03,2.03,1.47
+2plus_recent_inquiries + high_loan_to_income + no_mortgage,3,1.1,28.8,1.86,1.99,1.37
+high_loan_to_income + many_new_accounts + no_mortgage,3,2.5,28.1,1.98,1.94,1.41
+2plus_recent_inquiries + high_dti + no_mortgage,3,2.1,28.0,1.59,1.93,1.41
+income_verified + low_income + many_new_accounts,3,2.5,27.8,1.69,1.93,1.36
+2plus_recent_inquiries + high_dti + renter,3,2.1,27.8,1.6,1.92,1.41
+high_dti + many_new_accounts + renter,3,5.0,27.5,1.73,1.9,1.49
+2plus_recent_inquiries + income_verified + low_income,3,1.3,27.3,1.67,1.89,1.26
+2plus_recent_inquiries + high_dti + low_income,3,1.6,27.2,1.58,1.88,1.31
+2plus_recent_inquiries + income_verified + no_mortgage,3,2.0,27.2,1.69,1.88,1.29
+2plus_recent_inquiries + many_new_accounts + no_mortgage,3,2.9,27.1,1.67,1.87,1.35
+income_verified + many_new_accounts + no_mortgage,3,4.0,27.0,1.71,1.86,1.36
+high_utilisation + many_new_accounts + renter,3,1.2,26.9,1.75,1.86,1.35
+high_dti + many_new_accounts + no_mortgage,3,5.3,26.8,1.71,1.85,1.46
+2plus_recent_inquiries + high_dti + short_credit_history,3,0.9,26.7,1.55,1.85,1.29
+2plus_recent_inquiries + many_new_accounts + renter,3,3.0,26.7,1.64,1.85,1.34
+income_verified + many_new_accounts + renter,3,4.1,26.7,1.67,1.85,1.36
+2plus_recent_inquiries + income_verified + renter,3,2.1,26.6,1.57,1.84,1.27
+2plus_recent_inquiries + high_dti + many_new_accounts,3,2.8,26.5,1.63,1.83,1.33
+2plus_recent_inquiries + high_utilisation + no_mortgage,3,0.7,26.4,1.57,1.83,1.25
+high_dti + low_income + many_new_accounts,3,3.6,26.4,1.66,1.82,1.35
+2plus_recent_inquiries + high_loan_to_income,2,2.3,26.3,1.76,1.82,1.3
+2plus_recent_inquiries + high_dti + income_verified,3,2.1,26.3,1.58,1.82,1.28
+high_dti + income_verified + many_new_accounts,3,4.9,26.0,1.64,1.8,1.35
+income_verified + many_new_accounts + short_credit_history,3,1.9,25.8,1.57,1.78,1.26
+high_dti + income_verified + renter,3,4.6,25.6,1.51,1.77,1.37
+2plus_recent_inquiries + income_verified + short_credit_history,3,0.9,25.4,1.51,1.76,1.17
+2plus_recent_inquiries + many_new_accounts + short_credit_history,3,1.5,25.4,1.56,1.75,1.23
+high_dti + many_new_accounts + short_credit_history,3,2.5,25.4,1.66,1.75,1.33
+high_loan_to_income + many_new_accounts,2,5.0,25.3,1.87,1.75,1.34
+high_dti + income_verified + no_mortgage,3,4.9,25.2,1.49,1.74,1.34
+2plus_recent_inquiries + high_utilisation + renter,3,0.8,25.1,1.59,1.73,1.2
+high_dti + income_verified + short_credit_history,3,1.9,25.0,1.46,1.73,1.25
+high_utilisation + income_verified + many_new_accounts,3,1.3,24.8,1.71,1.71,1.2
+high_loan_to_income + income_verified + short_credit_history,3,1.5,24.7,1.66,1.71,1.18
+2plus_recent_inquiries + income_verified + many_new_accounts,3,3.2,24.6,1.57,1.7,1.19
+high_loan_to_income + income_verified + renter,3,3.4,24.5,1.64,1.7,1.27
+2plus_recent_inquiries + low_income,2,3.4,24.5,1.48,1.69,1.22
+low_income + many_new_accounts,2,6.8,24.2,1.55,1.67,1.28
+delinquency_on_record + high_loan_to_income + short_credit_history,3,1.2,24.2,1.68,1.67,1.25
+high_utilisation + income_verified + low_income,3,1.4,24.1,1.6,1.67,1.16
+high_loan_to_income + income_verified + no_mortgage,3,3.8,24.0,1.62,1.66,1.23
+high_loan_to_income + public_record,2,2.6,23.8,1.66,1.64,1.29
+2plus_recent_inquiries + high_dti,2,4.9,23.7,1.45,1.64,1.24
+2plus_recent_inquiries + no_mortgage,2,5.9,23.7,1.46,1.64,1.24
+high_loan_to_income + purpose_other,2,0.7,23.7,1.59,1.64,1.03
+high_dti + high_loan_to_income + short_credit_history,3,2.0,23.5,1.66,1.63,1.2
+many_new_accounts + no_mortgage,2,12.2,23.4,1.47,1.62,1.33
+high_utilisation + many_new_accounts + purpose_debt_consolidation,3,2.0,23.2,1.68,1.6,1.19
+2plus_recent_inquiries + renter,2,6.1,23.2,1.39,1.6,1.22
+many_new_accounts + renter,2,12.3,23.1,1.46,1.6,1.33
+delinquency_on_record + high_loan_to_income + renter,3,3.6,23.0,1.64,1.59,1.29
+purpose_small_business,1,0.9,22.8,1.67,1.57,1.0
+high_dti + many_new_accounts,2,12.2,22.6,1.51,1.56,1.3
+income_verified + low_income,2,8.0,22.5,1.38,1.56,1.2
+high_utilisation + many_new_accounts,2,3.2,22.4,1.55,1.55,1.18
+2plus_recent_inquiries + income_verified,2,5.3,22.4,1.37,1.55,1.13
+2plus_recent_inquiries + many_new_accounts,2,7.6,22.3,1.43,1.55,1.18
+income_verified + many_new_accounts,2,10.4,22.3,1.45,1.54,1.21
+high_dti + public_record,2,5.3,22.1,1.37,1.53,1.26
+high_dti + high_utilisation + renter,3,3.0,22.0,1.48,1.52,1.2
+many_new_accounts + purpose_other,2,2.1,21.9,1.43,1.52,1.05
+high_dti + high_utilisation + no_mortgage,3,3.2,21.8,1.5,1.51,1.18
+high_dti + income_verified,2,11.0,21.7,1.34,1.5,1.21
+2plus_recent_inquiries + public_record + purpose_debt_consolidation,3,2.4,21.7,1.44,1.5,1.12
+high_dti + renter,2,14.0,21.5,1.36,1.49,1.29
+high_utilisation + income_verified + no_mortgage,3,2.5,21.3,1.49,1.47,1.12
+2plus_recent_inquiries + high_utilisation,2,2.0,21.3,1.41,1.47,1.07
+high_utilisation + income_verified + short_credit_history,3,1.0,21.1,1.44,1.46,1.05
+income_verified + no_mortgage,2,11.6,20.9,1.32,1.45,1.17
+high_utilisation + low_income,2,4.1,20.9,1.43,1.45,1.07
+high_dti + no_mortgage,2,15.2,20.9,1.35,1.45,1.25
+high_utilisation + income_verified + renter,3,2.6,20.9,1.47,1.45,1.12
+high_dti + high_loan_to_income,2,9.0,20.9,1.56,1.44,1.19
+2plus_recent_inquiries + public_record,2,4.1,20.5,1.34,1.41,1.07
+high_loan_to_income + high_utilisation,2,3.9,20.2,1.65,1.4,1.07
+delinquency_on_record + high_loan_to_income,2,8.5,19.9,1.54,1.38,1.15
+high_dti + high_utilisation,2,7.1,18.9,1.34,1.31,1.07
